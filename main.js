@@ -25,10 +25,9 @@ window.addEventListener("load", () => {
   }
 
   const game = new Game(canvas);
-  console.log(game);
 
   let previousTimestamp = 0;
-  
+
   function animate(timeStamp) {
     const deltaTime = timeStamp - previousTimestamp;
     previousTimestamp = timeStamp;
