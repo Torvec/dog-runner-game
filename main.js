@@ -1,5 +1,13 @@
 import { InputHandler } from "./lib/InputHandler.js";
-import { SceneManager } from "./lib/SceneManager.js";
+import {
+  StartMenu,
+  LevelOne,
+  LevelTwo,
+  LevelThree,
+  GameComplete,
+  Scoreboard,
+  Credits,
+} from "./lib/scenes.js";
 
 window.addEventListener("load", () => {
   const canvas = document.getElementById("canvas1");
@@ -13,14 +21,40 @@ window.addEventListener("load", () => {
       this.width = this.canvas.width;
       this.height = this.canvas.height;
       this.input = new InputHandler(this);
-      this.sceneManager = new SceneManager(this);
-      this.currentScene = this.sceneManager.setScene("START_MENU");
+      this.currentScene = this.setScene("START_MENU");
+    }
+    setScene(sceneName) {
+      this.currentScene = null;
+      switch (sceneName) {
+        case "START_MENU":
+          this.currentScene = new StartMenu(this);
+          break;
+        case "LEVEL_ONE":
+          this.currentScene = new LevelOne(this);
+          break;
+        case "LEVEL_TWO":
+          this.currentScene = new LevelTwo(this);
+          break;
+        case "LEVEL_THREE":
+          this.currentScene = new LevelThree(this);
+          break;
+        case "GAME_COMPLETE":
+          this.currentScene = new GameComplete(this);
+          break;
+        case "SCOREBOARD":
+          this.currentScene = new Scoreboard(this);
+          break;
+        case "CREDITS":
+          this.currentScene = new Credits(this);
+          break;
+      }
+      return this.currentScene;
     }
     update(deltaTime) {
-      this.sceneManager.update(deltaTime, this.input);
+      this.currentScene.update(deltaTime);
     }
     draw(context) {
-      this.sceneManager.draw(context);
+      this.currentScene.draw(context);
     }
   }
 
