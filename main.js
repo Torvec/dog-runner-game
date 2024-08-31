@@ -21,39 +21,24 @@ window.addEventListener("load", () => {
       this.width = this.canvas.width;
       this.height = this.canvas.height;
       this.input = new InputHandler(this);
+      this.scenes = {
+        START_MENU: StartMenu,
+        LEVEL_ONE: LevelOne,
+        LEVEL_TWO: LevelTwo,
+        LEVEL_THREE: LevelThree,
+        GAME_COMPLETE: GameComplete,
+        SCOREBOARD: Scoreboard,
+        CREDITS: Credits,
+      };
       this.currentScene = this.setScene("START_MENU");
     }
     setScene(sceneName) {
-      this.currentScene = null;
-      switch (sceneName) {
-        case "START_MENU":
-          this.currentScene = new StartMenu(this);
-          break;
-        case "LEVEL_ONE":
-          this.currentScene = new LevelOne(this);
-          break;
-        case "LEVEL_TWO":
-          this.currentScene = new LevelTwo(this);
-          break;
-        case "LEVEL_THREE":
-          this.currentScene = new LevelThree(this);
-          break;
-        case "GAME_COMPLETE":
-          this.currentScene = new GameComplete(this);
-          break;
-        case "SCOREBOARD":
-          this.currentScene = new Scoreboard(this);
-          break;
-        case "CREDITS":
-          this.currentScene = new Credits(this);
-          break;
-      }
+      const SceneClass = this.scenes[sceneName];
+      this.currentScene = new SceneClass(this);
       return this.currentScene;
     }
-    update(deltaTime) {
+    render(deltaTime, context) {
       this.currentScene.update(deltaTime);
-    }
-    draw(context) {
       this.currentScene.draw(context);
     }
   }
@@ -66,8 +51,7 @@ window.addEventListener("load", () => {
     const deltaTime = timeStamp - previousTimestamp;
     previousTimestamp = timeStamp;
     context.clearRect(0, 0, canvas.width, canvas.height);
-    if (!game.isPaused || game.gameOver) game.update(deltaTime);
-    game.draw(context);
+    game.render(deltaTime, context);
     requestAnimationFrame(animate);
   }
   requestAnimationFrame(animate);
