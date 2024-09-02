@@ -2,7 +2,7 @@ import { Game } from "./lib/Game.js";
 
 window.addEventListener("load", () => {
   const canvas = document.getElementById("canvas1");
-  const context = canvas.getContext("2d");
+  const c = canvas.getContext("2d");
   canvas.width = 1200;
   canvas.height = 500;
 
@@ -11,10 +11,11 @@ window.addEventListener("load", () => {
   let previousTimestamp = 0;
 
   function animate(timeStamp) {
+    if (previousTimestamp === 0) previousTimestamp = timeStamp;
     const deltaTime = timeStamp - previousTimestamp;
     previousTimestamp = timeStamp;
-    context.clearRect(0, 0, canvas.width, canvas.height);
-    game.render(deltaTime, context);
+    c.clearRect(0, 0, canvas.width, canvas.height);
+    game.render(deltaTime, c);
     requestAnimationFrame(animate);
   }
   requestAnimationFrame(animate);
