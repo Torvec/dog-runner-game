@@ -15,7 +15,8 @@ window.addEventListener("load", () => {
     const deltaTime = timeStamp - previousTimestamp;
     previousTimestamp = timeStamp;
     c.clearRect(0, 0, canvas.width, canvas.height);
-    game.render(deltaTime, c);
+    game.update(deltaTime);
+    game.draw(c);
     requestAnimationFrame(animate);
   }
   requestAnimationFrame(animate);
