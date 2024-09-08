@@ -10,14 +10,14 @@ window.addEventListener("load", () => {
 
   let previousTimestamp = 0;
 
-  function animate(timeStamp) {
+  function animationLoop(timeStamp) {
     if (previousTimestamp === 0) previousTimestamp = timeStamp;
     const deltaTime = timeStamp - previousTimestamp;
     previousTimestamp = timeStamp;
     c.clearRect(0, 0, canvas.width, canvas.height);
     game.update(deltaTime);
     game.draw(c);
-    requestAnimationFrame(animate);
+    requestAnimationFrame(animationLoop);
   }
-  requestAnimationFrame(animate);
+  requestAnimationFrame(animationLoop);
 });
