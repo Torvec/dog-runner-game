@@ -13,6 +13,7 @@ The original code base was created by Frank Dvorak of [Frank's Laboratory](https
 - Added pause and resume functionality
 - Added a game over and level complete states for each level
 - Added a restart level functionality
+- Added a scoring system that saves each level's score in local storage
 - Various small enhancements to make the code more readable/modular
 
 ## Additional Modifications Planned
@@ -20,8 +21,6 @@ The original code base was created by Frank Dvorak of [Frank's Laboratory](https
 - Add more enemy types/sprites with different behaviors
 - Add more player states and abilities
 - Add a power/stamina system to control when the player can use abilities
-- Add a more robust scoring system + scoreboards
-- Add a way to save high scores
 - Add sound effects
 - Add music
 - TBD

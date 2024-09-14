@@ -1,6 +1,6 @@
 import { Game } from "./lib/Game.js";
 
-const canvas = document.getElementById("canvas1");
+const canvas = document.getElementById("gameCanvas");
 const c = canvas.getContext("2d");
 canvas.width = 1200;
 canvas.height = 500;
