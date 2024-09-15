@@ -31,9 +31,9 @@ All art assets created by bevouliin at [https://bevouliin.com/](https://bevoulii
 
 The art assets are not included in this repo but can be found here: [JavaScript Game Development Course for Beginners](https://www.youtube.com/watch?v=GFO_txvwK_c)
 
-1. Open the description and look for ==Project 9: Final Endless Runner Game==.
+1. Open the description and look for Project 9: Final Endless Runner Game.
 2. Download the assets from the links provided in the description.
-NOTE: There are more assets in the description than used in my version of the game.
+- NOTE: There are more assets in the description than used in my version of the game.
 3. Create the following directory structure in the root of the project and place the assets in the appropriate directories as shown below:
 
 ```
