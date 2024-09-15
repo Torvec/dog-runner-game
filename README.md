@@ -53,7 +53,6 @@ The art assets are not a part of this repo but the link to them can be found bel
     - [enemy_ghost_3.png](https://www.frankslaboratory.co.uk/downloads/97/enemy_ghost_3.png)
     - [enemy_ghost_4.png](https://www.frankslaboratory.co.uk/downloads/97/enemy_ghost_4.png)
     - [enemy_ground_zombie.png](https://www.frankslaboratory.co.uk/downloads/97/enemy_ground_zombie.png)
-    - [enemy_hand.png](https://www.frankslaboratory.co.uk/downloads/97/enemy_hand.png)
     - [enemy_plant.png](https://www.frankslaboratory.co.uk/downloads/97/enemy_plant.png)
     - [enemy_raven.png](https://www.frankslaboratory.co.uk/downloads/97/enemy_raven.png)
     - [enemy_spider_big.png](https://www.frankslaboratory.co.uk/downloads/97/enemy_spider_big.png)
