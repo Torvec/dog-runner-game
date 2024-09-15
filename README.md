@@ -1,6 +1,6 @@
 # The Running Dog
 
-A side-scrolling action game where yo play as a dog with super powers. Defeat enemies and avoid getting hit while you try to get the highest score possible within the time limit.
+A side-scrolling action game where you play as a dog with super powers. Defeat enemies and avoid getting hit while you try to get the highest score possible within the time limit.
 
 ## Credits
 
@@ -27,7 +27,7 @@ The original code base was created by Frank Dvorak of [Frank's Laboratory](https
 
 ## Art Assets
 
-The art assets are not a part of this repo but the link to them can be found below or from the youtube video description.
+The art assets are not a part of this repo but the link to them can be found below or from the youtube video description above (has more enemy sprites also).
 
 - /assets
   - [player.png](https://www.frankslaboratory.co.uk/downloads/97/player.png)
