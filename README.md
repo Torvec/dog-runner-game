@@ -25,15 +25,21 @@ The original code base was created by Frank Dvorak of [Frank's Laboratory](https
 - Add music
 - TBD
 
-## Art Assets
+## Assets
 
-All art assets created by bevouliin at [https://bevouliin.com/](https://bevouliin.com/)
+All art assets were created by bevouliin at [https://bevouliin.com/](https://bevouliin.com/)
+
+All sound related assets can be found here:
+- [loop_run_for_your_life_02.wav](https://freesound.org/people/LittleRobotSoundFactory/sounds/320983/)
+- [puff.wav](https://freesound.org/people/qubodup/sounds/714257/)
+- [shoot.wav](https://freesound.org/people/BaggoNotes/sounds/720118/)
+
+### Setup Assets
 
 The art assets are not included in this repo but can be found here: [JavaScript Game Development Course for Beginners](https://www.youtube.com/watch?v=GFO_txvwK_c)
 
 1. Open the description and look for Project 9: Final Endless Runner Game.
-2. Download the assets from the links provided in the description.
-- NOTE: There are more assets in the description than used in my version of the game.
+2. Download the assets from the links provided in the description. NOTE: There are more assets in the description than used in my version of the game.
 3. Create the following directory structure in the root of the project and place the assets in the appropriate directories as shown below:
 
 ```
@@ -51,6 +57,10 @@ The art assets are not included in this repo but can be found here: [JavaScript 
       layer-3.png
       layer-4.png
       layer-5.png
+  /sounds
+    loop_run_for_your_life_02.wav
+    puff.wav
+    shoot.wav
   /sprites
     /enemy
       enemy_bat_3.png
