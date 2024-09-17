@@ -8,22 +8,17 @@ The original code base was created by Frank Dvorak of [Frank's Laboratory](https
 
 ## Additions to Original Codebase
 
-- Added multiple levels
-- Added more enemy types/sprites with different behaviors
-- Added more player states and abilities
-- Added a start menu, scoreboard, credits and how to play menu screens
-- Added pause and resume functionality
+- Added 3 more levels
+- Added more enemy types/sprites with different behaviors so each level has different enemies
+- Added projectiles that the player can shoot to defeat enemies
+- Added a power level system to control when the player can use the fire roll ability
+- Added a start menu, scoreboard, credits, how to play, and game complete menu screens
+- Added pause and resume functionality for each level
 - Added a game over and level complete states for each level
 - Added a restart level functionality
-- Added a scoring system that saves each level's score in local storage
-- Various small enhancements to make the code more readable/modular
-
-## Additional Modifications Planned
-
-- Add a power/stamina system to control when the player can use abilities
-- Add sound effects
-- Add music
-- TBD
+- Added a scoring system that saves each level's score in local storage as well as the final score for all levels combined
+- Added sound effects for projectiles, collisions, and player abilities
+- Added background music with play/pause functionality
 
 ## Assets
 
