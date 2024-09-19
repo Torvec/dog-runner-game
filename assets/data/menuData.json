@@ -1,0 +1,92 @@
+{
+  "startMenu": {
+    "title": "THE RUNNING DOG",
+    "play": "PLAY GAME",
+    "controls": "Controls",
+    "scoreboard": "High Scores",
+    "credits": "Credits"
+  },
+  "tutorial": {
+    "title": "Tutorial",
+    "goal": {
+      "title": "Goal",
+      "content": "Get the highest score within the time limit with as much health as possible."
+    },
+    "ammo": {
+      "title": "Ammo",
+      "content": "Ammo is limited. It slowly increases over time, but increases faster by hitting enemies or sitting."
+    },
+    "power": {
+      "title": "Power Level",
+      "content": "Your power level determines when you can use your roll attack.",
+      "content2": "Power level increases by hitting enemies with a projectile attack or sitting."
+    },
+    "scoring": {
+      "title": "Scoring",
+      "content": "+1pt for each enemy defeated, and +2pts for each airborne enemy defeated with a projectile attack."
+    }
+  },
+  "controls": {
+    "title": "Controls",
+    "movement": "Movement:",
+    "moveLeft": "Left - ",
+    "moveRight": "Right - ",
+    "jump": "Jump - ",
+    "sit": "Sit - ",
+    "options": "Options:",
+    "pauseLevel": "Pause/Resume Level - ",
+    "pauseMusic": "Pause/Play Music - ",
+    "attack": "Attack:",
+    "shoot": "Shoot - ",
+    "roll": "Roll - ",
+    "dive": "Dive - "
+  },
+  "gameComplete": {
+    "title": "Congratulations! You've completed the game!",
+    "score": "Final Score",
+    "options": {
+      "startMenu": "Start Menu",
+      "scoreboard": "Scoreboard",
+      "credits": "Credits"
+    }
+  },
+  "scoreboard": {
+    "title": "High Scores",
+    "levelone": "Level 01",
+    "leveltwo": "Level 02",
+    "levelthree": "Level 03",
+    "levelfour": "Level 04",
+    "finalScore": "Final Score"
+  },
+  "credits": {
+    "title": "Credits",
+    "createdBy": "Original Codebase",
+    "frankDvorak": "Frank Dvorak",
+    "franksLabSite": "https://www.youtube.com/@Frankslaboratory",
+    "artAssetsBy": "Art Assets",
+    "bevouliin": "bevouliin",
+    "bevouliinSite": "https://bevouliin.com/",
+    "modifiedBy": "Code Additions and Modifications",
+    "edwardVonschondorf": "Edward Vonschondorf",
+    "mySite": "https://edward-vonschondorf.dev/"
+  },
+  "keys": {
+    "enter": "(ENTER) ",
+    "escape": "(ESC) ",
+    "shift": "(Shift) ",
+    "one": "(1) ",
+    "two": "(2) ",
+    "h": "(H) ",
+    "c": "(C) ",
+    "w": "(W) ",
+    "a": "(A) ",
+    "s": "(S) ",
+    "d": "(D) ",
+    "p": "(P) ",
+    "space": "(Space) "
+  },
+  "goTo": {
+    "startMenu": "Start Menu",
+    "continue": "Continue"
+  }
+}

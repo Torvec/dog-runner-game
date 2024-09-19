@@ -1,0 +1,43 @@
+{
+  "health": {
+    "heartImage": "../assets/sprites/ui/heart.png",
+    "hpBarColor": "black"
+  },
+  "ammo": {
+    "ammoImage": "rgba(255, 165, 0, 0.75)",
+    "x": "x"
+  },
+  "power": {
+    "powerImage": "../assets/sprites/particles/fire.png",
+    "percent": "%"
+  },
+  "timer": {
+    "title": "Time"
+  },
+  "score": {
+    "title": "Score"
+  },
+  "levelStart": {},
+  "levelComplete": {
+    "title": "Level Complete!",
+    "score": "Score: "
+  },
+  "gameOver": {
+    "title": "Game Over"
+  },
+  "gamePaused": {
+    "title": "Game Paused"
+  },
+  "options": {
+    "resume": "Resume",
+    "restart": "Restart Level",
+    "startMenu": "Start Menu",
+    "nextLevel": "Next Level"
+  },
+  "keys": {
+    "enter": "(ENTER) ",
+    "esc": "(ESC) ",
+    "one": "(1) ",
+    "two": "(2) "
+  }
+}
