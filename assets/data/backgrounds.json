@@ -1,0 +1,92 @@
+{
+  "startMenu": {
+    "layer-01": {
+      "src": "../assets/backgrounds/city/layer-3.png",
+      "scrollXSpeed": 0.1
+    },
+    "layer-02": {
+      "src": "../assets/backgrounds/forest/layer-5.png",
+      "scrollXSpeed": 0.5
+    }
+  },
+  "levelOne": {
+    "layer-01": {
+      "src": "../assets/backgrounds/forest/layer-1.png",
+      "scrollXSpeed": 0
+    },
+    "layer-02": {
+      "src": "../assets/backgrounds/forest/layer-2.png",
+      "scrollXSpeed": 0.2
+    },
+    "layer-03": {
+      "src": "../assets/backgrounds/forest/layer-3.png",
+      "scrollXSpeed": 0.4
+    },
+    "layer-04": {
+      "src": "../assets/backgrounds/forest/layer-4.png",
+      "scrollXSpeed": 0.8
+    },
+    "layer-05": {
+      "src": "../assets/backgrounds/forest/layer-5.png",
+      "scrollXSpeed": 1
+    }
+  },
+  "levelTwo": {
+    "layer-01": {
+      "src": "../assets/backgrounds/forest/layer-2.png",
+      "scrollXSpeed": 0.2
+    },
+    "layer-02": {
+      "src": "../assets/backgrounds/forest/layer-3.png",
+      "scrollXSpeed": 0.4
+    },
+    "layer-03": {
+      "src": "../assets/backgrounds/forest/layer-4.png",
+      "scrollXSpeed": 0.8
+    },
+    "layer-04": {
+      "src": "../assets/backgrounds/forest/layer-5.png",
+      "scrollXSpeed": 1
+    }
+  },
+  "levelThree": {
+    "layer-01": {
+      "src": "../assets/backgrounds/city/layer-1.png",
+      "scrollXSpeed": 0
+    },
+    "layer-02": {
+      "src": "../assets/backgrounds/city/layer-2.png",
+      "scrollXSpeed": 0.1
+    },
+    "layer-03": {
+      "src": "../assets/backgrounds/city/layer-3.png",
+      "scrollXSpeed": 0.2
+    },
+    "layer-04": {
+      "src": "../assets/backgrounds/city/layer-4.png",
+      "scrollXSpeed": 0.4
+    },
+    "layer-05": {
+      "src": "../assets/backgrounds/city/layer-5.png",
+      "scrollXSpeed": 1
+    }
+  },
+  "levelFour": {
+    "layer-01": {
+      "src": "../assets/backgrounds/city/layer-2.png",
+      "scrollXSpeed": 0.1
+    },
+    "layer-02": {
+      "src": "../assets/backgrounds/city/layer-3.png",
+      "scrollXSpeed": 0.2
+    },
+    "layer-03": {
+      "src": "../assets/backgrounds/city/layer-4.png",
+      "scrollXSpeed": 0.4
+    },
+    "layer-04": {
+      "src": "../assets/backgrounds/city/layer-5.png",
+      "scrollXSpeed": 1
+    }
+  }
+}

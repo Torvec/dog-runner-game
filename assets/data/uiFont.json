@@ -12,7 +12,8 @@
   },
   "color": {
     "orange": "orange",
-    "white": "white"
+    "white": "white",
+    "black": "black"
   },
   "shadowColor": {
     "black": "black",
