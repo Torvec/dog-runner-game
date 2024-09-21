@@ -1,0 +1,16 @@
+{
+  "rootDirectory": "../assets/sounds/",
+  "backgroundMusic": {
+    "track_01": {
+      "file": "loop_run_for_your_life_02.wav"
+    }
+  },
+  "soundEffects": {
+    "collision": {
+      "file": "puff.wav"
+    },
+    "shoot": {
+      "file": "shoot.wav"
+    }
+  }
+}
