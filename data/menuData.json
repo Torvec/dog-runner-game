@@ -31,15 +31,15 @@
   },
   "controls": {
     "title": "Controls",
-    "movement": "Movement:",
+    "movement": "Movement",
     "moveLeft": "Left - ",
     "moveRight": "Right - ",
     "jump": "Jump - ",
     "sit": "Sit - ",
-    "options": "Options:",
+    "options": "Options",
     "pauseLevel": "Pause/Resume Level - ",
     "pauseMusic": "Pause/Play Music - ",
-    "attack": "Attack:",
+    "attack": "Attack",
     "shoot": "Shoot - ",
     "roll": "Roll - ",
     "dive": "Dive - "

@@ -10,9 +10,9 @@ The original code base was created by Frank Dvorak of [Frank's Laboratory](https
 
 - Added 3 more levels
 - Added more enemy types/sprites with different behaviors so each level has different enemies
-- Added projectiles that the player can shoot to defeat enemies
+- Added projectiles that the player can shoot to defeat enemies along with an ammo system
 - Added a power level system to control when the player can use the fire roll ability
-- Added a start menu, scoreboard, credits, how to play, and game complete menu screens
+- Added a start menu, scoreboard, credits, controls, tutorial, and game complete menu screens
 - Added pause and resume functionality for each level
 - Added a game over and level complete states for each level
 - Added a restart level functionality
@@ -25,9 +25,16 @@ The original code base was created by Frank Dvorak of [Frank's Laboratory](https
 All art assets were created by bevouliin at [https://bevouliin.com/](https://bevouliin.com/)
 
 All sound related assets can be found here:
-- [loop_run_for_your_life_02.wav](https://freesound.org/people/LittleRobotSoundFactory/sounds/320983/)
+- [fire_ball.wav](https://freesound.org/people/qubodup/sounds/442827/)
+- [fire_roll.wav](https://freesound.org/people/magnuswaker/sounds/581078/)
 - [puff.wav](https://freesound.org/people/qubodup/sounds/714257/)
 - [shoot.wav](https://freesound.org/people/BaggoNotes/sounds/720118/)
+
+All music related assets can be found here:
+- [run_for_your_life_00.wav](https://freesound.org/people/LittleRobotSoundFactory/sounds/320981/)
+- [run_for_your_life_01.wav](https://freesound.org/people/LittleRobotSoundFactory/sounds/320982/)
+- [run_for_your_life_02.wav](https://freesound.org/people/LittleRobotSoundFactory/sounds/320983/)
+- [run_for_your_life_03.wav](https://freesound.org/people/LittleRobotSoundFactory/sounds/320984/)
 
 ### Setup Assets
 
@@ -52,8 +59,14 @@ The art assets are not included in this repo but can be found here: [JavaScript 
       layer-3.png
       layer-4.png
       layer-5.png
+  /music
+    run_for_your_life_00.wav
+    run_for_your_life_01.wav
+    run_for_your_life_02.wav
+    run_for_your_life_03.wav
   /sounds
-    loop_run_for_your_life_02.wav
+    fire_ball.wav
+    fire_roll.wav
     puff.wav
     shoot.wav
   /sprites
