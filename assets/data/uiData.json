@@ -8,8 +8,7 @@
     "x": "x"
   },
   "power": {
-    "powerImage": "../assets/sprites/particles/fire.png",
-    "percent": "%"
+    "powerImage": "../assets/sprites/particles/fire.png"
   },
   "timer": {
     "title": "Time"

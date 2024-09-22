@@ -1,4 +1,7 @@
 {
+  "intro": {
+    "title": "Press ESC to Start"
+  },
   "startMenu": {
     "title": "THE RUNNING DOG",
     "play": "PLAY GAME",
