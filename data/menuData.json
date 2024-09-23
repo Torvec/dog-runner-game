@@ -60,7 +60,8 @@
     "leveltwo": "Level 02",
     "levelthree": "Level 03",
     "levelfour": "Level 04",
-    "finalScore": "Final Score"
+    "finalScore": "Final Score",
+    "clearScores": "Clear Scores"
   },
   "credits": {
     "title": "Credits",

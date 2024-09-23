@@ -4,7 +4,7 @@
     "hpBarColor": "black"
   },
   "ammo": {
-    "ammoImage": "rgba(255, 165, 0, 0.75)",
+    "ammoImage": "../assets/sprites/particles/fireball.png",
     "x": "x"
   },
   "power": {
