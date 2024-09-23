@@ -5,32 +5,32 @@
   "startMenu": {
     "title": "THE RUNNING DOG",
     "play": "PLAY GAME",
-    "controls": "Controls",
-    "scoreboard": "High Scores",
+    "howToPlay": "How to Play",
+    "scoreboard": "Scoreboard",
     "credits": "Credits"
   },
   "tutorial": {
     "title": "Tutorial",
     "goal": {
-      "title": "Goal",
-      "content": "Get the highest score within the time limit with as much health as possible."
+      "title": "Goal:",
+      "content": "Get the highest score within the time limit without losing all of your health."
     },
     "ammo": {
-      "title": "Ammo",
-      "content": "Ammo is limited. It slowly increases over time, but increases faster by hitting enemies or sitting."
+      "title": "Ammo:",
+      "content": "Ammo is limited but It slowly replenishes over time."
     },
     "power": {
-      "title": "Power Level",
+      "title": "Power Level:",
       "content": "Your power level determines when you can use your roll attack.",
       "content2": "Power level increases by hitting enemies with a projectile attack or sitting."
     },
     "scoring": {
-      "title": "Scoring",
-      "content": "+1pt for each enemy defeated, and +2pts for each airborne enemy defeated with a projectile attack."
+      "title": "Scoring:",
+      "content": "+1pt for each enemy defeated. Your highest score is saved on the scoreboard."
     }
   },
-  "controls": {
-    "title": "Controls",
+  "howToPlay": {
+    "title": "How to Play",
     "movement": "Movement",
     "moveLeft": "Left - ",
     "moveRight": "Right - ",
@@ -42,7 +42,8 @@
     "attack": "Attack",
     "shoot": "Shoot - ",
     "roll": "Roll - ",
-    "dive": "Dive - "
+    "dive": "Dive - ",
+    "diveplus": "+ "
   },
   "gameComplete": {
     "title": "Congratulations! You've completed the game!",
