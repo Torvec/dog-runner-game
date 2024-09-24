@@ -103,7 +103,7 @@
       "scrollXSpeed": 0
     },
     "layer-02": {
-      "src": "../assets/backgrounds/city/layer-5.png",
+      "src": "../assets/backgrounds/city/layer-5_alt.png",
       "scrollXSpeed": 1
     }
   }
