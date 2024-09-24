@@ -96,5 +96,15 @@
       "src": "../assets/backgrounds/city/layer-5.png",
       "scrollXSpeed": 1
     }
+  },
+  "levelBoss": {
+    "layer-01": {
+      "src": "../assets/backgrounds/city/layer-1_alt_flip.png",
+      "scrollXSpeed": 0
+    },
+    "layer-02": {
+      "src": "../assets/backgrounds/city/layer-5.png",
+      "scrollXSpeed": 1
+    }
   }
 }
