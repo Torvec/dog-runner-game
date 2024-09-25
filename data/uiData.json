@@ -16,6 +16,9 @@
   "score": {
     "title": "Score"
   },
+  "bossHealth": {
+    "title": "The Boss"
+  },
   "levelStart": {},
   "levelComplete": {
     "title": "Level Complete!",
