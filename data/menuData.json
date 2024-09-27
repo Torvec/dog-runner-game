@@ -72,6 +72,8 @@
     "artAssetsBy": "Art Assets",
     "bevouliin": "bevouliin",
     "bevouliinSite": "bevouliin.com",
+    "cuzco": "Cuzco",
+    "cuzcoSite": "opengameart.org/users/cuzco",
     "modifiedBy": "Code Additions and Modifications",
     "edwardVonschondorf": "Edward Vonschondorf",
     "mySite": "edward-vonschondorf.dev",
@@ -84,7 +86,9 @@
     "qubodup": "qubodup",
     "qubodupLink": "freesound.org/people/qubodup",
     "BaggoNotes": "BaggoNotes",
-    "BaggoNotesLink": "freesound.org/people/BaggoNotes"
+    "BaggoNotesLink": "freesound.org/people/BaggoNotes",
+    "dklon": "dklon",
+    "dklonLink": "opengameart.org/users/dklon"
   },
   "keys": {
     "enter": "(ENTER) ",
