@@ -11,7 +11,8 @@
     "powerImage": "../assets/sprites/particles/fire.png"
   },
   "timer": {
-    "title": "Time"
+    "title": "Time",
+    "infinity": "∞"
   },
   "score": {
     "title": "Score"
