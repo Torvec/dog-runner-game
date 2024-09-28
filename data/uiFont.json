@@ -4,6 +4,7 @@
     "sanserif": "sans-serif"
   },
   "size": {
+    "xsmall": 18,
     "small": 24,
     "base": 32,
     "medium": 48,

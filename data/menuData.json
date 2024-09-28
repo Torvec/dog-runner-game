@@ -23,10 +23,6 @@
       "title": "Power Level:",
       "content": "Your power level determines when you can use your roll attack.",
       "content2": "Power level increases by hitting enemies with a projectile attack or sitting."
-    },
-    "scoring": {
-      "title": "Scoring:",
-      "content": "+1pt for each enemy defeated. Your highest score is saved on the scoreboard."
     }
   },
   "howToPlay": {
@@ -66,17 +62,17 @@
   },
   "credits": {
     "title": "Credits",
-    "originalCode": "Original Codebase",
-    "frankDvorak": "Frank Dvorak",
-    "franksLabSite": "youtube.com/@Frankslaboratory",
+    "modifiedBy": "Code Additions, Modifications, Projectile Sprites",
+    "edwardVonschondorf": "Edward Vonschondorf",
+    "mySite": "edward-vonschondorf.dev",
     "artAssetsBy": "Art Assets",
     "bevouliin": "bevouliin",
     "bevouliinSite": "bevouliin.com",
     "cuzco": "Cuzco",
     "cuzcoSite": "opengameart.org/users/cuzco",
-    "modifiedBy": "Code Additions and Modifications",
-    "edwardVonschondorf": "Edward Vonschondorf",
-    "mySite": "edward-vonschondorf.dev",
+    "originalCode": "Original Codebase",
+    "frankDvorak": "Frank Dvorak",
+    "franksLabSite": "youtube.com/@Frankslaboratory",
     "musicBy": "Music",
     "lrsf": "LittleRobotSoundFactory",
     "lrsfLink": "freesound.org/people/LittleRobotSoundFactory",
@@ -88,7 +84,9 @@
     "BaggoNotes": "BaggoNotes",
     "BaggoNotesLink": "freesound.org/people/BaggoNotes",
     "dklon": "dklon",
-    "dklonLink": "opengameart.org/users/dklon"
+    "dklonLink": "opengameart.org/users/dklon",
+    "virix": "ViRiX",
+    "virixLink": "opengameart.org/users/virix"
   },
   "keys": {
     "enter": "(ENTER) ",
