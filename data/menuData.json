@@ -17,12 +17,13 @@
     },
     "ammo": {
       "title": "Ammo:",
-      "content": "Ammo is limited but It slowly replenishes over time."
+      "content": "Ammo is limited, but it does replenish over a short period of time."
     },
     "power": {
       "title": "Power Level:",
-      "content": "Your power level determines when you can use your roll attack.",
-      "content2": "Power level increases by hitting enemies with a projectile attack or sitting."
+      "line_01": "Your power level determines when you can use your roll attack.",
+      "line_02": "Power level increases by hitting enemies with a projectile attack or sitting.",
+      "line_03": "Power level decreases when you use your roll attack."
     }
   },
   "howToPlay": {
