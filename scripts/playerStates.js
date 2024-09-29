@@ -253,3 +253,21 @@ export class Hit extends PlayerState {
     }
   }
 }
+
+export class Death extends PlayerState {
+  constructor(level) {
+    super("DEATH", level);
+  }
+  enter() {
+    this.level.player.frame.x = 0;
+    this.level.player.maxFrame = 11;
+    this.level.player.frame.y = 8;
+    this.level.player.frameLoop = false;
+    this.level.player.health = 0;
+  }
+  handleInput() {
+    if (this.level.player.frame.x === this.level.player.maxFrame) {
+      this.level.gameOver = true;
+    }
+  }
+}

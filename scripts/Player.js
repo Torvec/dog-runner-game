@@ -7,6 +7,7 @@ import {
   Diving,
   Shooting,
   Hit,
+  Death,
 } from "./playerStates.js";
 import { Projectile } from "./Projectiles.js";
 
@@ -30,6 +31,7 @@ export class Player {
     this.fps = 20;
     this.frameInterval = 1000 / this.fps;
     this.frameTimer = 0;
+    this.frameLoop = true;
     this.speed = 0;
     this.maxSpeed = 10;
     this.health = 6;
@@ -42,6 +44,7 @@ export class Player {
       DIVING: new Diving(this.level),
       SHOOTING: new Shooting(this.level),
       HIT: new Hit(this.level),
+      DEATH: new Death(this.level),
     };
     this.currentState = null;
     this.projectiles = [];
@@ -81,8 +84,13 @@ export class Player {
     // Sprite Animation
     if (this.frameTimer > this.frameInterval) {
       this.frameTimer = 0;
-      if (this.frame.x < this.maxFrame) this.frame.x++;
-      else this.frame.x = 0;
+      if (this.frame.x < this.maxFrame) {
+        this.frame.x++;
+      } else {
+        if (this.frameLoop) {
+          this.frame.x = 0;
+        }
+      }
     } else {
       this.frameTimer += deltaTime;
     }

@@ -62,7 +62,6 @@ class Level {
   }
   update(deltaTime) {
     this.handlePauseToggle(this.input.keys);
-    this.handleGameOver(this.input.keys);
     if (
       !this.countdownActive &&
       !this.isPaused &&
@@ -90,6 +89,8 @@ class Level {
       this.floatingMessages = this.floatingMessages.filter(
         (message) => !message.markedForDeletion
       );
+    } else if (this.gameOver) {
+      this.handleGameOver(this.input.keys);
     }
   }
   draw(c) {
@@ -164,6 +165,9 @@ class Level {
     this.player.health--;
     this.score--;
     this.handleFloatingMessages("-1", enemy);
+    if (this.player.health <= 0) {
+      this.player.setState("DEATH", 0);
+    }
   }
   handleProjectileEnemyCollision(enemy) {
     this.player.projectiles.forEach((projectile) => {
@@ -222,14 +226,10 @@ class Level {
     }
   }
   handleGameOver(input) {
-    if (this.player.health <= 0) {
-      this.player.health = 0;
-      this.gameOver = true;
-      this.game.music.currentMusic.volume = 0.1;
-      this.player.sound.pause();
-      if (input.includes("1")) this.restartLevel();
-      if (input.includes("2")) this.quitLevel();
-    }
+    this.game.music.currentMusic.volume = 0.1;
+    this.player.sound.pause();
+    if (input.includes("1")) this.restartLevel();
+    if (input.includes("2")) this.quitLevel();
   }
   handleLevelComplete(input) {
     this.time = 0;
