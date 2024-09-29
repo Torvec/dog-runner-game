@@ -1,0 +1,40 @@
+{
+  "family": {
+    "impact": "Impact",
+    "sanserif": "sans-serif"
+  },
+  "size": {
+    "xsmall": 18,
+    "small": 24,
+    "base": 32,
+    "medium": 48,
+    "large": 64,
+    "xlarge": 96
+  },
+  "color": {
+    "orange": "orange",
+    "white": "white",
+    "black": "black"
+  },
+  "shadowColor": {
+    "black": "black",
+    "white": "white"
+  },
+  "shadowOffsetX": {
+    "zero": 0,
+    "two": 2
+  },
+  "shadowOffsetY": {
+    "zero": 0,
+    "two": 2
+  },
+  "shadowBlur": {
+    "zero": 0,
+    "two": 2
+  },
+  "align": {
+    "left": "left",
+    "center": "center",
+    "right": "right"
+  }
+}

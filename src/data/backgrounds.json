@@ -1,0 +1,114 @@
+{
+  "startMenu": {
+    "layer-01": {
+      "src": "backgrounds/city/layer-3.png",
+      "scrollXSpeed": 0.1
+    },
+    "layer-02": {
+      "src": "backgrounds/forest/layer-5.png",
+      "scrollXSpeed": 0.5
+    }
+  },
+  "levelOne": {
+    "layer-01": {
+      "src": "backgrounds/forest/layer-1.png",
+      "scrollXSpeed": 0
+    },
+    "layer-02": {
+      "src": "backgrounds/forest/layer-2.png",
+      "scrollXSpeed": 0.2
+    },
+    "layer-03": {
+      "src": "backgrounds/forest/layer-3.png",
+      "scrollXSpeed": 0.4
+    },
+    "layer-04": {
+      "src": "backgrounds/forest/layer-4.png",
+      "scrollXSpeed": 0.8
+    },
+    "layer-05": {
+      "src": "backgrounds/forest/layer-5.png",
+      "scrollXSpeed": 1
+    }
+  },
+  "levelTwo": {
+    "layer-01": {
+      "src": "backgrounds/forest/layer-1_alt.png",
+      "scrollXSpeed": 0
+    },
+    "layer-02": {
+      "src": "backgrounds/forest/layer-2.png",
+      "scrollXSpeed": 0.2
+    },
+    "layer-03": {
+      "src": "backgrounds/forest/layer-3.png",
+      "scrollXSpeed": 0.4
+    },
+    "layer-04": {
+      "src": "backgrounds/forest/layer-4.png",
+      "scrollXSpeed": 0.8
+    },
+    "layer-05": {
+      "src": "backgrounds/forest/layer-5.png",
+      "scrollXSpeed": 1
+    }
+  },
+  "levelThree": {
+    "layer-01": {
+      "src": "backgrounds/city/layer-1.png",
+      "scrollXSpeed": 0
+    },
+    "layer-02": {
+      "src": "backgrounds/city/layer-2.png",
+      "scrollXSpeed": 0.1
+    },
+    "layer-03": {
+      "src": "backgrounds/city/layer-3.png",
+      "scrollXSpeed": 0.2
+    },
+    "layer-04": {
+      "src": "backgrounds/city/layer-4.png",
+      "scrollXSpeed": 0.4
+    },
+    "layer-05": {
+      "src": "backgrounds/city/layer-5.png",
+      "scrollXSpeed": 1
+    }
+  },
+  "levelFour": {
+    "layer-01": {
+      "src": "backgrounds/city/layer-1_alt.png",
+      "scrollXSpeed": 0
+    },
+    "layer-02": {
+      "src": "backgrounds/city/layer-2.png",
+      "scrollXSpeed": 0.1
+    },
+    "layer-03": {
+      "src": "backgrounds/city/layer-3.png",
+      "scrollXSpeed": 0.2
+    },
+    "layer-04": {
+      "src": "backgrounds/city/layer-4.png",
+      "scrollXSpeed": 0.4
+    },
+    "layer-05": {
+      "src": "backgrounds/city/layer-5.png",
+      "scrollXSpeed": 1
+    }
+  },
+  "levelBoss": {
+    "layer-01": {
+      "src": "backgrounds/city/layer-1_alt_flip.png",
+      "scrollXSpeed": 0
+    },
+    "layer-02": {
+      "src": "backgrounds/city/layer-2_alt.png",
+      "scrollXSpeed": 0.5
+    },
+    "layer-03": {
+      "src": "backgrounds/city/layer-5_alt.png",
+      "scrollXSpeed": 1
+    }
+  }
+}
