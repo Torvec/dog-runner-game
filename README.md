@@ -5,6 +5,8 @@ A side-scrolling action game where you play as a dog with super powers. Defeat e
 ## Play the Game
 - [Play The Running Dog online now](https://dog-runner-game.pages.dev/) or clone the repositiory and use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension in Visual Studio Code to run the game locally.
 
+##### NOTE: The game is best played on a desktop or laptop as it uses keyboard inputs only to play.
+
 ## Credits
 
 The original code base was created by Frank Dvorak of [Frank's Laboratory](https://www.youtube.com/@Frankslaboratory) from his lengthy tutorial on youtube [JavaScript Game Development Course for Beginners](https://www.youtube.com/watch?v=GFO_txvwK_c), specifically project 9 which is the final project in the series. That said, I have made many modifications and additions such as the following:
