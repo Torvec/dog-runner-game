@@ -1,14 +1,14 @@
 const uiData = {
   health: {
-    heartImage: "sprites/ui/heart.png",
+    heartImage: "../assets/sprites/ui/heart.png",
     hpBarColor: "black",
   },
   ammo: {
-    ammoImage: "sprites/particles/fireball.png",
+    ammoImage: "../assets/sprites/particles/fireball.png",
     x: "x",
   },
   power: {
-    powerImage: "sprites/particles/fire.png",
+    powerImage: "../assets/sprites/particles/fire.png",
   },
   timer: {
     title: "Time",

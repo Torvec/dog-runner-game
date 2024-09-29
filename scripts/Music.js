@@ -1,8 +1,8 @@
-const menuMusic = "music/run_for_your_life_00.wav";
+const menuMusic = "../assets/music/run_for_your_life_00.wav";
 const levelMusicList = [
-  "music/run_for_your_life_01.wav",
-  "music/run_for_your_life_02.wav",
-  "music/run_for_your_life_03.wav",
+  "../assets/music/run_for_your_life_01.wav",
+  "../assets/music/run_for_your_life_02.wav",
+  "../assets/music/run_for_your_life_03.wav",
 ];
 
 export class Music {

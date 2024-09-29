@@ -58,7 +58,7 @@ export class Plant extends Enemy {
     this.speed = { x: 0, y: 0 };
     this.maxFrame = 1;
     this.image = new Image();
-    this.image.src = "sprites/enemy/enemy_plant.png";
+    this.image.src = "../assets/sprites/enemy/enemy_plant.png";
   }
 }
 
@@ -76,7 +76,7 @@ export class GroundZombie extends Enemy {
     this.speed = { x: 0, y: 0 };
     this.maxFrame = 7;
     this.image = new Image();
-    this.image.src = "sprites/enemy/enemy_ground_zombie.png";
+    this.image.src = "../assets/sprites/enemy/enemy_ground_zombie.png";
   }
 }
 
@@ -94,7 +94,7 @@ export class Worm extends Enemy {
     this.speed = { x: Math.random() + 1, y: 0 };
     this.maxFrame = 5;
     this.image = new Image();
-    this.image.src = "sprites/enemy/enemy_worm.png";
+    this.image.src = "../assets/sprites/enemy/enemy_worm.png";
   }
   update(deltaTime) {
     super.update(deltaTime);
@@ -132,7 +132,7 @@ export class WalkingZombie extends Enemy {
     this.speed = { x: Math.random() + 1, y: 0 };
     this.maxFrame = 7;
     this.image = new Image();
-    this.image.src = "sprites/enemy/enemy_zombie.png";
+    this.image.src = "../assets/sprites/enemy/enemy_zombie.png";
   }
 }
 
@@ -163,7 +163,7 @@ export class Fly extends FlyingEnemy {
     this.width = this.spriteWidth;
     this.height = this.spriteHeight;
     this.image = new Image();
-    this.image.src = "sprites/enemy/enemy_fly.png";
+    this.image.src = "../assets/sprites/enemy/enemy_fly.png";
   }
 }
 
@@ -175,7 +175,7 @@ export class Bat extends FlyingEnemy {
     this.width = this.spriteWidth * 0.35;
     this.height = this.spriteHeight * 0.35;
     this.image = new Image();
-    this.image.src = "sprites/enemy/enemy_bat_3.png";
+    this.image.src = "../assets/sprites/enemy/enemy_bat_3.png";
   }
 }
 
@@ -187,7 +187,7 @@ export class Raven extends FlyingEnemy {
     this.width = this.spriteWidth * 0.3;
     this.height = this.spriteHeight * 0.3;
     this.image = new Image();
-    this.image.src = "sprites/enemy/enemy_raven.png";
+    this.image.src = "../assets/sprites/enemy/enemy_raven.png";
   }
 }
 
@@ -199,7 +199,7 @@ export class AngryGhost extends FlyingEnemy {
     this.width = this.spriteWidth;
     this.height = this.spriteHeight;
     this.image = new Image();
-    this.image.src = "sprites/enemy/enemy_ghost_3.png";
+    this.image.src = "../assets/sprites/enemy/enemy_ghost_3.png";
   }
 }
 
@@ -228,7 +228,7 @@ export class Spiderling extends ClimbingEnemy {
     this.height = this.spriteHeight * 0.4;
     this.maxFrame = 5;
     this.image = new Image();
-    this.image.src = "sprites/enemy/enemy_spider.png";
+    this.image.src = "../assets/sprites/enemy/enemy_spider.png";
   }
   draw(c) {
     super.draw(c);
@@ -247,7 +247,7 @@ export class Spider extends Spiderling {
     this.width = this.spriteWidth;
     this.height = this.spriteHeight;
     this.image = new Image();
-    this.image.src = "sprites/enemy/enemy_spider_big.png";
+    this.image.src = "../assets/sprites/enemy/enemy_spider_big.png";
   }
 }
 
@@ -260,7 +260,7 @@ export class BigGhost extends ClimbingEnemy {
     this.height = this.spriteHeight;
     this.maxFrame = 1;
     this.image = new Image();
-    this.image.src = "sprites/enemy/enemy_ghost_2.png";
+    this.image.src = "../assets/sprites/enemy/enemy_ghost_2.png";
   }
   update(deltaTime) {
     super.update(deltaTime);
@@ -278,7 +278,7 @@ export class Spinner extends ClimbingEnemy {
     this.speed = { x: 4, y: Math.random() >= 0.5 ? 4 : -4 };
     this.maxFrame = 8;
     this.image = new Image();
-    this.image.src = "sprites/enemy/enemy_spinner.png";
+    this.image.src = "../assets/sprites/enemy/enemy_spinner.png";
   }
   update(deltaTime) {
     super.update(deltaTime);
@@ -309,7 +309,7 @@ export class BigBoss extends Enemy {
     this.reloadTimer = 0;
     this.reloadInterval = Math.random() * 500 + 1500; // min 1.5s, max 2s  
     this.image = new Image();
-    this.image.src = "sprites/enemy/enemy_ghost_4.png";
+    this.image.src = "../assets/sprites/enemy/enemy_ghost_4.png";
   }
   update(deltaTime) {
     super.update(deltaTime);
@@ -342,8 +342,8 @@ export class BigBoss extends Enemy {
             width: 64,
             height: 64,
             speed: 6,
-            image: "sprites/particles/fireball_big.png",
-            sound: "sounds/fire_ball.wav",
+            image: "../assets/sprites/particles/fireball_big.png",
+            sound: "../assets/sounds/fire_ball.wav",
             direction: "left",
           })
         );

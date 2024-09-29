@@ -23,7 +23,6 @@ The original code base was created by Frank Dvorak of [Frank's Laboratory](https
 - Added sound effects for projectiles, collisions, and player abilities
 - Added background music with play/pause functionality
 - Modified some background images to differentiate levels
-- Converted project to use Vite for bundling and development
 
 ## Assets
 
@@ -47,9 +46,3 @@ All music related assets can be found here:
 - [run_for_your_life_01.wav](https://freesound.org/people/LittleRobotSoundFactory/sounds/320982/)
 - [run_for_your_life_02.wav](https://freesound.org/people/LittleRobotSoundFactory/sounds/320983/)
 - [run_for_your_life_03.wav](https://freesound.org/people/LittleRobotSoundFactory/sounds/320984/)
-
-## Development/Play Local Setup
-
-1. Clone the repository
-2. Run `npm install`
-3. Run `npm run dev`

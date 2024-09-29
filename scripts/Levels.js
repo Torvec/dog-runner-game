@@ -138,7 +138,7 @@ class Level {
     if (enemy.hitpoints <= 0) {
       this.handleEnemyDefeat(enemy, addScore);
     } else {
-      this.sound = new Audio("sounds/hit.wav");
+      this.sound = new Audio("../assets/sounds/hit.wav");
       this.sound.volume = 0.5;
       this.sound.play();
     }

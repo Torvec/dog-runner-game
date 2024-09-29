@@ -170,7 +170,7 @@ export class Diving extends PlayerState {
     this.level.player.maxFrame = 6;
     this.level.player.frame.y = 6;
     this.level.player.velocity.y = 15;
-    this.sound = new Audio("sounds/fire_ball.wav");
+    this.sound = new Audio("../assets/sounds/fire_ball.wav");
     this.sound.play();
   }
   handleInput(input) {

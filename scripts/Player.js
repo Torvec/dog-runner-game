@@ -22,8 +22,8 @@ export class Player {
     this.velocity = { x: 0, y: 0 };
     this.gravity = 0.5;
     this.image = new Image();
-    this.image.src = "sprites/player/player.png";
-    this.sound = new Audio("sounds/fire_roll.wav");
+    this.image.src = "../assets/sprites/player/player.png";
+    this.sound = new Audio("../assets/sounds/fire_roll.wav");
     this.sound.volume = 0.5;
     this.frame = { x: 0, y: 0 };
     this.maxFrame;
@@ -151,8 +151,8 @@ export class Player {
           width: 32,
           height: 32,
           speed: 10,
-          image: "sprites/particles/fireball.png",
-          sound: "sounds/shoot.wav",
+          image: "../assets/sprites/particles/fireball.png",
+          sound: "../assets/sounds/shoot.wav",
           direction: "right",
         })
       );

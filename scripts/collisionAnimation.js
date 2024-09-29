@@ -3,16 +3,16 @@ export class CollisionAnimation {
     this.level = level;
     if (type === "enemy") {
       this.image = new Image();
-      this.image.src = "sprites/particles/boom.png";
-      this.sound = new Audio("sounds/puff.wav");
+      this.image.src = "../assets/sprites/particles/boom.png";
+      this.sound = new Audio("../assets/sounds/puff.wav");
       this.spriteWidth = 100;
       this.spriteHeight = 90;
       this.sizeModifier = Math.random() + 0.5;
       this.maxFrame = 4;
     } else if (type === "boss") {
       this.image = new Image();
-      this.image.src = "sprites/particles/explosion.png";
-      this.sound = new Audio("sounds/explosion.wav");
+      this.image.src = "../assets/sprites/particles/explosion.png";
+      this.sound = new Audio("../assets/sounds/explosion.wav");
       this.sound.volume = 0.6;
       this.spriteWidth = 64;
       this.spriteHeight = 64;
