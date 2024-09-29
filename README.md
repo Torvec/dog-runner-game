@@ -3,7 +3,7 @@
 A side-scrolling action game where you play as a dog with super powers. Defeat enemies and avoid getting hit while you try to get the highest score possible within the time limit.
 
 ## Play the Game
-- [Play The Running Dog Now](https://arcade.edward-vonschondorf.dev/the-running-dog/) on my website or follow the instructions below to run the game locally.
+- [Play The Running Dog online now](https://dog-runner-game.pages.dev/) or clone the repositiory and use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension in Visual Studio Code to run the game locally.
 
 ## Credits
 
