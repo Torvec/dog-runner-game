@@ -8,23 +8,6 @@ export const checkCollision = (entity1, entity2) => {
   );
 };
 
-// Loads JSON data from a file path and returns the parsed JSON data
-export const loadJsonData = async (filePath) => {
-  try {
-    const response = await fetch(filePath);
-    if (!response.ok) {
-      throw new Error(
-        `Failed to load JSON data from ${filePath}: ${response.statusText}`
-      );
-    }
-    const jsonData = await response.json();
-    return jsonData;
-  } catch (error) {
-    console.error(error);
-    return null;
-  }
-};
-
 // Score saving functions
 export const saveHighScore = (level, score) => {
   const highScoreKey = `${level}_high_score`;

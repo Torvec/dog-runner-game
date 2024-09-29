@@ -1,6 +1,90 @@
-import { loadJsonData } from "./utils.js";
-const uiData = await loadJsonData("../data/uiData.json");
-const uiFont = await loadJsonData("../data/uiFont.json");
+const uiData = {
+  health: {
+    heartImage: "sprites/ui/heart.png",
+    hpBarColor: "black",
+  },
+  ammo: {
+    ammoImage: "sprites/particles/fireball.png",
+    x: "x",
+  },
+  power: {
+    powerImage: "sprites/particles/fire.png",
+  },
+  timer: {
+    title: "Time",
+    infinity: "∞",
+  },
+  score: {
+    title: "Score",
+  },
+  bossHealth: {
+    title: "The Boss",
+  },
+  levelStart: {},
+  levelComplete: {
+    title: "Level Complete!",
+    score: "Score: ",
+  },
+  gameOver: {
+    title: "Game Over",
+  },
+  gamePaused: {
+    title: "Game Paused",
+  },
+  options: {
+    resume: "Resume",
+    restart: "Restart Level",
+    startMenu: "Start Menu",
+    nextLevel: "Next Level",
+  },
+  keys: {
+    enter: "(ENTER) ",
+    esc: "(ESC) ",
+    one: "(1) ",
+    two: "(2) ",
+  },
+};
+
+const uiFont = {
+  family: {
+    impact: "Impact",
+    sanserif: "sans-serif",
+  },
+  size: {
+    xsmall: 18,
+    small: 24,
+    base: 32,
+    medium: 48,
+    large: 64,
+    xlarge: 96,
+  },
+  color: {
+    orange: "orange",
+    white: "white",
+    black: "black",
+  },
+  shadowColor: {
+    black: "black",
+    white: "white",
+  },
+  shadowOffsetX: {
+    zero: 0,
+    two: 2,
+  },
+  shadowOffsetY: {
+    zero: 0,
+    two: 2,
+  },
+  shadowBlur: {
+    zero: 0,
+    two: 2,
+  },
+  align: {
+    left: "left",
+    center: "center",
+    right: "right",
+  },
+};
 
 export class UI {
   constructor(level) {

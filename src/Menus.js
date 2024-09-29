@@ -6,9 +6,162 @@ import {
   clearScores,
 } from "./utils.js";
 import { UI } from "./UI.js";
-import { loadJsonData } from "./utils.js";
-const menuData = await loadJsonData("../data/menuData.json");
-const uiFont = await loadJsonData("../data/uiFont.json");
+
+const menuData = {
+  intro: {
+    title: "Press ESC to Start",
+  },
+  startMenu: {
+    title: "THE RUNNING DOG",
+    play: "PLAY GAME",
+    howToPlay: "How to Play",
+    scoreboard: "Scoreboard",
+    credits: "Credits",
+  },
+  tutorial: {
+    title: "Tutorial",
+    goal: {
+      title: "Goal:",
+      content:
+        "Get the highest score within the time limit without losing all of your health.",
+    },
+    ammo: {
+      title: "Ammo:",
+      content:
+        "Ammo is limited, but it does replenish over a short period of time.",
+    },
+    power: {
+      title: "Power Level:",
+      line_01: "Your power level determines when you can use your roll attack.",
+      line_02:
+        "Power level increases by hitting enemies with a projectile attack or sitting.",
+      line_03: "Power level decreases when you use your roll attack.",
+    },
+  },
+  howToPlay: {
+    title: "How to Play",
+    movement: "Movement",
+    moveLeft: "Left - ",
+    moveRight: "Right - ",
+    jump: "Jump - ",
+    sit: "Sit - ",
+    options: "Options",
+    pauseLevel: "Pause/Resume Level - ",
+    pauseMusic: "Pause/Play Music - ",
+    attack: "Attack",
+    shoot: "Shoot - ",
+    roll: "Roll - ",
+    dive: "Dive - ",
+    diveplus: "+ ",
+  },
+  gameComplete: {
+    title: "Congratulations! You've completed the game!",
+    score: "Final Score",
+    options: {
+      startMenu: "Start Menu",
+      scoreboard: "Scoreboard",
+      credits: "Credits",
+    },
+  },
+  scoreboard: {
+    title: "High Scores",
+    levelone: "Level 01",
+    leveltwo: "Level 02",
+    levelthree: "Level 03",
+    levelfour: "Level 04",
+    levelfive: "Boss Level",
+    finalScore: "Final Total:",
+    clearScores: "Clear Scores",
+  },
+  credits: {
+    title: "Credits",
+    modifiedBy: "Code Additions, Modifications, Projectile Sprites",
+    edwardVonschondorf: "Edward Vonschondorf",
+    mySite: "edward-vonschondorf.dev",
+    artAssetsBy: "Art Assets",
+    bevouliin: "bevouliin",
+    bevouliinSite: "bevouliin.com",
+    cuzco: "Cuzco",
+    cuzcoSite: "opengameart.org/users/cuzco",
+    originalCode: "Original Codebase",
+    frankDvorak: "Frank Dvorak",
+    franksLabSite: "youtube.com/@Frankslaboratory",
+    musicBy: "Music",
+    lrsf: "LittleRobotSoundFactory",
+    lrsfLink: "freesound.org/people/LittleRobotSoundFactory",
+    sfxBy: "Sound Effects",
+    magnuswaker: "magnuswaker",
+    magnuswakerLink: "freesound.org/people/magnuswaker",
+    qubodup: "qubodup",
+    qubodupLink: "freesound.org/people/qubodup",
+    BaggoNotes: "BaggoNotes",
+    BaggoNotesLink: "freesound.org/people/BaggoNotes",
+    dklon: "dklon",
+    dklonLink: "opengameart.org/users/dklon",
+    virix: "ViRiX",
+    virixLink: "opengameart.org/users/virix",
+  },
+  keys: {
+    enter: "(ENTER) ",
+    escape: "(ESC) ",
+    shift: "(Shift) ",
+    one: "(1) ",
+    two: "(2) ",
+    h: "(H) ",
+    c: "(C) ",
+    w: "(W) ",
+    a: "(A) ",
+    s: "(S) ",
+    d: "(D) ",
+    p: "(P) ",
+    space: "(Space) ",
+  },
+  goTo: {
+    startMenu: "Start Menu",
+    continue: "Continue",
+  },
+};
+
+const uiFont = {
+  family: {
+    impact: "Impact",
+    sanserif: "sans-serif",
+  },
+  size: {
+    xsmall: 18,
+    small: 24,
+    base: 32,
+    medium: 48,
+    large: 64,
+    xlarge: 96,
+  },
+  color: {
+    orange: "orange",
+    white: "white",
+    black: "black",
+  },
+  shadowColor: {
+    black: "black",
+    white: "white",
+  },
+  shadowOffsetX: {
+    zero: 0,
+    two: 2,
+  },
+  shadowOffsetY: {
+    zero: 0,
+    two: 2,
+  },
+  shadowBlur: {
+    zero: 0,
+    two: 2,
+  },
+  align: {
+    left: "left",
+    center: "center",
+    right: "right",
+  },
+};
 
 class Menu {
   constructor(game) {
