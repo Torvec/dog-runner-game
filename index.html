@@ -4,18 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Running Dog</title>
-    <link rel="icon" href="../assets/sprites/ui/lives.png" type="image/x-icon">
+    <link
+      rel="icon"
+      href="../assets/sprites/ui/lives.png"
+      type="image/x-icon"
+    />
     <style>
       * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
       }
-
       body {
         background-color: black;
       }
-
       #gameCanvas {
         position: absolute;
         top: 50%;
@@ -25,10 +27,62 @@
         max-height: 100%;
         border: 4px white solid;
       }
+      #preload {
+        display: none;
+      }
     </style>
+    <script type="module" src="../scripts/main.js" defer></script>
   </head>
   <body>
     <canvas id="gameCanvas"></canvas>
-    <script type="module" src="../scripts/main.js" defer></script>
+    <div id="preload" aria-hidden="true">
+      <!-- A quick and dirty way to preload all the images/audio files at once. Will do it properly next time. -->
+      <img src="../assets/backgrounds/city/layer-1_alt_flip.png" />
+      <img src="../assets/backgrounds/city/layer-1_alt.png" />
+      <img src="../assets/backgrounds/city/layer-1.png" />
+      <img src="../assets/backgrounds/city/layer-2.png" />
+      <img src="../assets/backgrounds/city/layer-2_alt.png" />
+      <img src="../assets/backgrounds/city/layer-3.png" />
+      <img src="../assets/backgrounds/city/layer-4.png" />
+      <img src="../assets/backgrounds/city/layer-5.png" />
+      <img src="../assets/backgrounds/city/layer-5_alt.png" />
+      <img src="../assets/backgrounds/forest/layer-1_alt.png" />
+      <img src="../assets/backgrounds/forest/layer-1.png" />
+      <img src="../assets/backgrounds/forest/layer-2.png" />
+      <img src="../assets/backgrounds/forest/layer-3.png" />
+      <img src="../assets/backgrounds/forest/layer-4.png" />
+      <img src="../assets/backgrounds/forest/layer-5.png" />
+      <img src="../assets/sprites/enemy/enemy_bat_3.png" />
+      <img src="../assets/sprites/enemy/enemy_fly.png" />
+      <img src="../assets/sprites/enemy/enemy_ghost_2.png" />
+      <img src="../assets/sprites/enemy/enemy_ghost_3.png" />
+      <img src="../assets/sprites/enemy/enemy_ghost_4.png" />
+      <img src="../assets/sprites/enemy/enemy_ground_zombie.png" />
+      <img src="../assets/sprites/enemy/enemy_plant.png" />
+      <img src="../assets/sprites/enemy/enemy_raven.png" />
+      <img src="../assets/sprites/enemy/enemy_spider.png" />
+      <img src="../assets/sprites/enemy/enemy_spider_big.png" />
+      <img src="../assets/sprites/enemy/enemy_spinner.png" />
+      <img src="../assets/sprites/enemy/enemy_worm.png" />
+      <img src="../assets/sprites/enemy/enemy_zombie.png" />
+      <img src="../assets/sprites/particles/boom.png" />
+      <img src="../assets/sprites/particles/explosion.png" />
+      <img src="../assets/sprites/particles/fire.png" />
+      <img src="../assets/sprites/particles/fireball.png" />
+      <img src="../assets/sprites/particles/fireball_big.png" />
+      <img src="../assets/sprites/player/player.png" />
+      <img src="../assets/sprites/ui/heart.png" />
+      <img src="../assets/sprites/ui/lives.png" />
+      <audio src="../assets/music/run_for_your_life_00.wav"></audio>
+      <audio src="../assets/music/run_for_your_life_01.wav"></audio>
+      <audio src="../assets/music/run_for_your_life_02.wav"></audio>
+      <audio src="../assets/music/run_for_your_life_03.wav"></audio>
+      <audio src="../assets/sounds/explosion.wav"></audio>
+      <audio src="../assets/sounds/fire_ball.wav"></audio>
+      <audio src="../assets/sounds/fire_roll.wav"></audio>
+      <audio src="../assets/sounds/hit.wav"></audio>
+      <audio src="../assets/sounds/puff.wav"></audio>
+      <audio src="../assets/sounds/shoot.wav"></audio>
+    </div>
   </body>
 </html>
