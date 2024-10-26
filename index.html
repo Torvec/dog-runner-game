@@ -17,15 +17,34 @@
       }
       body {
         background-color: black;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4rem;
       }
       #gameCanvas {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        max-width: 100%;
-        max-height: 100%;
+        max-width: 1200px;
+        max-height: 500px;
         border: 4px white solid;
+        margin: 0 auto;
+        display: block;
+      }
+      p {
+        text-align: center;
+        color: white;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.25rem;
+      }
+      a {
+        color: orange;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+      a:hover, a:focus {
+        text-decoration: underline;
+        color: darkorange;
       }
       #preload {
         display: none;
@@ -34,9 +53,21 @@
     <script type="module" src="../scripts/main.js" defer></script>
   </head>
   <body>
-    <canvas id="gameCanvas"></canvas>
+    <main>
+      <canvas id="gameCanvas"></canvas>
+    </main>
+    <footer>
+      <p>
+        Made by Edward Vonschondorf in 2024<br />
+        <a
+          href="https://edward-vonschondorf.dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >edward-vonschondorf.dev
+        </a>
+      </p>
+    </footer>
     <div id="preload" aria-hidden="true">
-      <!-- A quick and dirty way to preload all the images/audio files at once. Will do it properly next time. -->
       <img src="../assets/backgrounds/city/layer-1_alt_flip.png" />
       <img src="../assets/backgrounds/city/layer-1_alt.png" />
       <img src="../assets/backgrounds/city/layer-1.png" />
